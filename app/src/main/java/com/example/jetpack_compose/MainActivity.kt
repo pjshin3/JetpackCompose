@@ -8,6 +8,7 @@ import androidx.ui.core.setContent
 import androidx.ui.foundation.Text
 import androidx.ui.layout.Column
 import androidx.ui.layout.padding
+import androidx.ui.material.Button
 import androidx.ui.tooling.preview.Preview
 import androidx.ui.unit.dp
 
@@ -28,8 +29,9 @@ class MainActivity : AppCompatActivity() {
             modifier = Modifier.padding(16.dp)
         ) {
             Text("Hello World")
+            Text("Hello")
             Text("Hello World")
-            Text("Hello World")
+
         }
     }
 }
